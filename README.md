@@ -1,6 +1,6 @@
 # Secure Notes API
 
-Note-taking REST API with JWT auth and two roles (user and admin). It also has posts, plus the two MongoDB aggregation tasks from the assignment. The frontend is a separate repo (`notes_frontend`), a plain HTML/JS page for clicking through things.
+Note-taking REST API with JWT auth and two roles (user and admin). It also has posts, plus the two MongoDB aggregation tasks from the assignment. The frontend lives in a separate repo, `secure-notes-frontend` (plain HTML/CSS/JS, no build step).
 
 Stack: Node.js (20.12+), Express 5, MongoDB (5.2+, I tested on 8.2), Mongoose 8, jsonwebtoken, bcryptjs, express-rate-limit.
 
